@@ -1,12 +1,12 @@
-#Hello!
-####My name is Andrew! 
-####My surname is Morozov!
+# Hello!
+#### My name is Andrew! 
+#### My surname is Morozov!
 `My phone number is +375445508882`
 
 #About me
 ```Hello, I’m 30 years old, I have experience in the banking sector, where I currently work. I live in Minsk, married. I study English myself. Actively interested in information technology, an active user of social networks and search sites. Ready for retraining related to IT or work with information technology. I will be very glad to learn new things, quickly learn. Ready to start work immediately after your invitation.```
 
-#Work experience —9 years
+# Work experience —9 years
 ```September 2018 - Present
 1 year 7 months	
 	Bps-Sberbank
