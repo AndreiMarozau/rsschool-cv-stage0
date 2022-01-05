@@ -1,4 +1,87 @@
-.example {
-font-size: 20px;
-font-style: bold;
+* {
+    box-sizing: border-box; 
+  }
+
+  body {
+    display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+  }
+
+  #main {
+    display: flex;
+
+    flex: 1;
+  }
+  #main > main {
+    flex: 1;
+    background: #c3e2d2;;
+  }
+  #main > nav, 
+  #main > aside {
+    flex: 0 0 20vw;
+    background: beige;
+  }
+ 
+  
+  header, footer, main, nav, aside {
+    padding: 1em;
+  }
+  header {
+    background: rgb(86, 132, 138);
+    height: 100px;
+  }
+  
+  footer {
+    background: rgb(86, 132, 138);
+    height: 100px;  
+  }
+  
+  ul li {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 17px;
+      font-weight: 700;
+      color: rgb(13, 89, 202);
+      
+  }
+
+  .photo-container {
+display: flex;
+
+flex-direction: row;
+
+
+  }
+
+.aboutme {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ 
+.aside-container {
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.welcome {
+  color: rgb(126, 233, 227);
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
 }
